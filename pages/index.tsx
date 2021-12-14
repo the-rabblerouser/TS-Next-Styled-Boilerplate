@@ -1,6 +1,12 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 
+import styled from 'styled-components';
+
+const Introduction = styled.div`
+	color: Green;
+`;
+
 const Home: NextPage = () => {
 	return (
 		<>
@@ -10,7 +16,9 @@ const Home: NextPage = () => {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 
-			<main>Hello World</main>
+			<main>
+				<Introduction>Hello World</Introduction>
+			</main>
 		</>
 	);
 };
