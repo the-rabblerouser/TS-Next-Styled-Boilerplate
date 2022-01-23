@@ -3,7 +3,7 @@ import type { NextPage } from 'next';
 import styled from 'styled-components';
 
 const Introduction = styled.div`
-	color: Green;
+	color: ${({ theme }) => theme.text};
 `;
 
 const Home: NextPage = () => {
