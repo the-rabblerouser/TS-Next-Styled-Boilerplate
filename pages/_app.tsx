@@ -54,12 +54,12 @@ function MyApp({ Component, pageProps }: AppProps) {
 			</Head>
 			<button onClick={toggleTheme}>
 				{theme ? (
-					<span aria-label='Light mode' role='img'>
-						🌞
-					</span>
-				) : (
 					<span aria-label='Dark mode' role='img'>
 						🌜
+					</span>
+				) : (
+					<span aria-label='Light mode' role='img'>
+						🌞
 					</span>
 				)}
 			</button>
